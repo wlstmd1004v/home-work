@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&family=Noto+Sans+KR:wght@700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+.box{
+    width: 250px;
+    height: 259px;
+    background: linear-gradient(#ccc, #eee);
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+    padding: 20px;
+}
+h3 {
+    font-size: 0.9375em;
+    font-weight: 700;
+    margin: 0 0 16px;
+}
+
+.box dt {
+    color: #296897;
+    font-size: 0.875em;
+    font-weight: 700;
+    margin-bottom: 4px;
+    width: 170px;
+  }
+  
+  .box dd {
+    margin-left: 0;
+  }
+  
+  .txt01, .txt02 {
+    font-size: 0.875em;
+    line-height: 21px;
+    width: 170px;
+  }
+  
+  .txt01, .tit01 {
+    float: right;
+  }
+  
+  .txt02, .tit02 {
+    float: left;
+    margin-right: 16px;
+  }
+  
+  .txt01 {
+    margin-bottom: 20px;
+  }
+
+

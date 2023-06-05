@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    width: 250px;
+    height: 86px;
+    padding-left: 0;
+}
+
+li {
+    width: 250px;
+    height: 37px;
+    border-radius: 34px;
+    box-sizing: border-box;
+    color: black;
+    padding: 8px 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: url(./validation_icon.png) no-repeat 20px 10px #cccccc;
+    padding-left: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
