@@ -26,22 +26,22 @@ h3 {
     margin-left: 0;
   }
   
-  .txt01, .txt02 {
+  .text01, .text02 {
     font-size: 0.875em;
     line-height: 21px;
     width: 170px;
   }
   
-  .txt01, .tit01 {
+  .text01, .title01 {
     float: right;
   }
   
-  .txt02, .tit02 {
+  .text02, .title02 {
     float: left;
     margin-right: 16px;
   }
   
-  .txt01 {
+  .text01 {
     margin-bottom: 20px;
   }
 
