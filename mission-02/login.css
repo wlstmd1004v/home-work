@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+.login-input::placeholder {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+.login-title,
+.login-input,
+.login-btn,
+a {
+  line-height: 150%;
+}
+.login,
+.login-wrapper,
+.login-input,
+.login-btn {
+  border-radius: 5px;
+}
+.login {
+  width: 244px;
+  padding: 12px;
+  background: linear-gradient(90deg, #ed552f 0%, #e8852e 100%);
+  box-shadow: 5px 5px 0px #aaaaaa;
+}
+.login-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffff00;
+  margin-bottom: 8px;
+}
+.login-wrapper {
+  background-color: #fff;
+  padding: 8px 8px 0 8px;
+}
+.login-group {
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+fieldset {
+  border: none;
+}
+legend {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.login-label {
+  display: inline-block;
+  width: 56px;
+  font-size: 14px;
+}
+.login-input {
+  width: 90px;
+  border: 1px solid #ccc;
+  padding-left: 8px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.login:nth-child(2) {
+  margin-bottom: 4px;
+}
+.login-btn {
+  background-color: #ed552f;
+  color: #fff;
+  font-size: 13px;
+  border: 0;
+  padding: 16.5px 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.link {
+  padding: 4px 0px;
+  list-style: none;
+}
+.link::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.link li:first-child {
+  float: left;
+}
+.link li:last-child {
+  float: right;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #181818;
+  font-size: 13px;
+  background-image: url(./images/list.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding: 4px 0px 4px 17px;
+}
