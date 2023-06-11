@@ -6,13 +6,13 @@
 
 ## General info
 
-transition을 활용하여 관련 리스트 구현
+transition을 활용하여 관련 사이트 구현
 
 2023-06-09 ~ 2023-06-11
 
 ## Results
 
-1. 관련 리스트 구현
+1. 관련 사이트 구현
 
 ![Related-Site](./Related-Site.gif)
 
