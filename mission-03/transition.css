@@ -58,7 +58,7 @@ body {
     color: black;
 }
 
-  .related-list a:focus{
+.related-list a:focus{
     outline-offset: -2px;
 }
 
