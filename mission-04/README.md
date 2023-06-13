@@ -34,7 +34,7 @@ html
             ├── p (class="news-time")
             ├── p (class="news-detail")
             ├── figure (class="news-img")
-            │   ├── img (src="./news.png", alt="W3C 리뉴얼 페이지 미리보기")
+            │   ├── img (src="./news.png", alt="W3C 리뉴얼 페이지")
             │   └── figcaption
             └── a (href="/", class="news-link", target="_blank", rel="noopener noreferrer")
                 └── span
@@ -67,7 +67,7 @@ CSS 조건
 
 ```
 figure class="news-img">
-    <img src="./news.png" alt="W3C 리뉴얼 페이지 미리보기" />
+    <img src="./news.png" alt="W3C 리뉴얼 페이지" />
     <figcaption>W3C 리뉴얼</figcaption>
 </figure>
 ```
