@@ -49,14 +49,14 @@ CSS 조건
 - grid를 활용하여 레이아웃을 구현한다.
 
 ```
-그리드 레이아웃은 12개의 열과 1개의 행으로 구성했습니다. 첫 번째 열은 img title 영역을 
+그리드 레이아웃은 2개의 열과 1개의 행으로 구성했습니다. 첫 번째 열은 img title 영역을 
 차지하고 두 번째 열은 img date 영역을 차지하고 세 번째 열은 img detail영역을 차지하도록 
 지정해 주었습니다. 그리드의 행을 생성해 행의 너비는 자동으로 계산하도록 auto로 지정해 
 주었습니다. 
 
 .news-board {
  display: grid;
- grid-template-columns: repeat(12,1fr);
+ grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
     grid-template-areas: 
     "img title"
