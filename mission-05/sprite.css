@@ -1,0 +1,101 @@
+body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+:root {
+    --accent-primary-color:#ED552F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site__title,
+.list__item,
+.site__more {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.popular__site {
+    margin: 100px;
+    padding: 12px;
+    width: 190px;
+    background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.site__title {
+    font-size: 15px;
+}
+
+.accentsite {
+    color: var(--accent-primary-color);
+}
+
+.site__list {
+    counter-reset: ranking;
+    list-style: none;
+}
+
+.list__item {
+    counter-increment: ranking;
+    margin-top: 8px;
+    font-size: 11px;
+}
+
+.list__item::before {
+    content: counter(ranking);
+    font-size: 11px;
+    background: #a3a3a3;
+    color: #fff;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 4px;
+}
+
+.list__link {
+    display: inline-block;
+    width: calc(100% - 16px - 4px);
+}
+
+.sprite {
+    background: url(./rank.png) no-repeat 100% 0;
+}
+
+.sprite-up {
+    background-position-y: 3px;
+}
+
+.sprite-down {
+    background-position-y: -42px;
+}
+
+.sprite-no {
+    background-position-y: -19px;
+}
+
+.site__more {
+    font-size: 14px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.fas {
+    color: #447231;
+}
