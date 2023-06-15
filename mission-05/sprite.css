@@ -57,7 +57,6 @@ a {
 
 .list__item::before {
     content: counter(ranking);
-    font-size: 11px;
     background: #a3a3a3;
     color: #fff;
     display: inline-block;
